@@ -4,27 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="">
-  <title>Frontend Mentor | IP Address Tracker</title>
-  <!-- google fonts -->
-
-  <!-- font awsome -->
-  <script src="https://kit.fontawesome.com/2d07468bac.js" crossorigin="anonymous"></script>
-  <!-- bootstrap script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+ <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="upper-container">
-  <img src="images/pattern-bg.png" alt="" style="width:100%">
-    <h1>IP Address Tracker</h1>
-  <input type="search" value="">
+  <div class="main-page">
+<div class="top-section">
+  <h1>IP Address Tracker</h1>
+  <div class="input_btn">
+    <input type="text" placeholder="Search for any IP address or domain">
+    <button class="btn">></button>
+  </div>
+          <div class="detail">
+            <div>
+              <p>IPADDRESS</p>
+              <h6>192.212.174.101</h6>
+            </div>
+            <div>
+              <p>LOCATION</p>
+              <h6>Brooklyn,NY <br>10001</h6>
+            </div>
+            <div>
+              <p>TIMEZONE</p>
+              <h6>UTC - 05:00</h6>
+            </div>
+            <div>
+              <p>ISP</p>
+              <h6>SpaceX <br>Starlink</h6>
+            </div>
+          </div>
 </div>
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
+<div class="map_section">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.693580175996!2d168.74702001538998!3d-45.01084407909811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9d51e4995bc67d5%3A0x62de73961b0f84b9!2sPAK&#39;nSAVE%20Queenstown!5e0!3m2!1sen!2sin!4v1657475131022!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
   <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
   <script src="index.js" charset="utf-8"></script>
 </body>
