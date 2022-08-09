@@ -14,3 +14,21 @@ API
 Google Map
 
 ![IP1](https://user-images.githubusercontent.com/90760374/183727950-1592b6b5-677f-4f90-b283-e77619f3108a.png)
+
+<h1>NFT preview Card</h1>
+
+<h1>tech stack used -</h1>
+HTML 
+CSS
+
+
+![nft-card](https://user-images.githubusercontent.com/90760374/183731311-9e53805e-a1f0-4885-9868-ac29ce0f19ce.jpg)
+
+<h1>QR Code Scanner</h1>
+
+<h1>tech stack used -</h1>
+HTML 
+CSS
+
+
+![qr-code](https://user-images.githubusercontent.com/90760374/183731687-c1837f7a-06fb-470b-9c11-24a4b0f4997f.jpg)
